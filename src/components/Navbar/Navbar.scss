@@ -1,0 +1,14 @@
+.navbar {
+    position: static !important;
+
+    &__btn {
+        &-login {
+            background-color: green !important;
+            color: #fff !important;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

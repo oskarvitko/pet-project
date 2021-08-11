@@ -1,0 +1,18 @@
+.login-page {
+    height: calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__container {
+        width: 500px;
+        text-align: center;
+    }
+
+    &__btn {
+        &-enter {
+            background-color: green !important;
+            color: #fff !important;
+        }
+    }
+}
